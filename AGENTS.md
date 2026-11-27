@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Application structure
+- Use a shared AccessReady shell around the root Outlet and separate Home, Prepare, Learn, and Safety leaf routes so navigation and page metadata stay consistent.
+- Keep educational service and glossary data in a browser-safe module; derive checklist progress and copy summaries from that data so the UI and tests use the same source.
+- Store checklist state only in browser localStorage after hydration, validate restored values, and expose it through a shared context because this MVP deliberately requires no accounts or remote persistence.
