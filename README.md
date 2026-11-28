@@ -1,24 +1,54 @@
-# Screenshot Exact Match
 
-Implement exactly the screenshot and nothing else
+# AccessReady
+### Financial Access Through Clarity and Confidence
 
-This project was built with [Lovable](https://lovable.dev).
+AccessReady is a mobile-friendly educational platform designed to help refugees and individuals unfamiliar with financial services navigate financial access with greater confidence.
 
-## Build with Lovable
+It helps users understand financial services, prepare before approaching providers, learn unfamiliar financial terms, and know the important questions to ask.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/4c1c4df4-4f85-40a1-b95d-15f5a3de709f).
+## Problem
+Many people face barriers accessing financial services due to confusing requirements, unfamiliar terminology, lack of information, and uncertainty.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## Solution
+AccessReady provides simple, accessible guidance to help users feel more informed and prepared when exploring financial services.
 
-## Development
+## Features
+- Preparation checklists for financial services.
+- A glossary of financial terms explained in simple language.
+- Suggested questions to ask financial service providers.
+- Safety tips to help users avoid scams and unsafe financial practices.
+- A mobile-friendly interface.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## How It Works
+1. Select a financial service.
+2. Review the preparation checklist.
+3. Learn unfamiliar financial terms.
+4. Explore questions to ask providers.
+5. Review safety tips.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+## Live Demo
+https://pixel-perfect-replay-02836.lovable.app
+
+## Technologies
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- TanStack Start
+
+## Run Locally
+
+```bash
+git clone https://github.com/mss-anzal/accessready.git
+cd accessready
+npm install
 npm run dev
 ```
+
+## Disclaimer
+AccessReady is an educational tool, not a financial or legal advisor. Requirements vary by provider and location. Users should verify information directly with relevant service providers.
+
+## Author
+Anzal Abdikadir
+
+Mini Hackathon — Legal & Financial Access Track
